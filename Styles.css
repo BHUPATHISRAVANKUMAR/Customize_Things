@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0b0b0b;
+}
+
+#welcome-message {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  border: #0e0e0e;
+  background-image: linear-gradient(to right, #eeeceb, #05f5fd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#welcome-message1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  border: #0e0e0e;
+  background-image: linear-gradient(to right, #eeeceb, #05fdbf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#home-button {
+  background-color: #ffbb00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#home-button:hover {
+  background-color: #a408ed;
+}
